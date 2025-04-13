@@ -1,3 +1,4 @@
 re
 requests
 tldextract
+urlparse
