@@ -3,6 +3,10 @@ import requests
 import tldextract
 from urllib.parse import urlparse
 
+import pyfiglet
+i=pyfiglet.figlet_format("Network Scanner")
+print(i)
+
 # Heuristic-based URL analyzer
 def is_suspicious(url):
     suspicious_signals = 0
