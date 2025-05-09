@@ -4,7 +4,7 @@ import tldextract
 from urllib.parse import urlparse
 
 import pyfiglet
-i=pyfiglet.figlet_format("Network Scanner")
+i=pyfiglet.figlet_format("Check-the-Link")
 print(i)
 
 # Heuristic-based URL analyzer
